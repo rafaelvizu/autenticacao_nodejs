@@ -6,7 +6,7 @@ const usersSchema = new db.Schema({
      email: String,
      password: String
 });
-const Pessoa = db.model('Pessoa', usersSchema);
+const Users = db.model('Users', usersSchema);
 
 
-export default Pessoa;
+export default Users;
